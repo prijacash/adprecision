@@ -1,7 +1,7 @@
 export default function Certificate() {
     return (
         <div>
-            Certificate
+            Certificate 
         </div>
     )
 }
