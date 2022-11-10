@@ -9,7 +9,7 @@ import Engineering from './components/pages/Engineering'
 
 
 // partials
-import Navbar from './components/partials/NavBar'
+import NavBar from './components/partials/NavBar'
 
 function App() {
   return (
@@ -20,6 +20,7 @@ function App() {
         </header>
 
         <div>
+          <Routes >
             <Route 
               path='/'
               element={<Home />}          
@@ -39,6 +40,7 @@ function App() {
               path='/certificate'
               element={<Certificate />}          
             />
+          </Routes>
         </div>
       </Router>
     </div>
