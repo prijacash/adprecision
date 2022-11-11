@@ -12,6 +12,7 @@ import Engineering from './components/pages/Engineering'
 // partials
 import NavBar from './components/partials/NavBar'
 
+
 function App() {
 
 
@@ -21,8 +22,12 @@ function App() {
         <header>
           <NavBar />
         </header>
-
         <div>
+          <p>A & D PRECISION MFG. INC.</p>
+        </div>
+
+
+        <div className='mt-4'>
           <Routes >
             <Route 
               path='/'
