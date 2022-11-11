@@ -1,6 +1,7 @@
 import './App.css';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom'
 
+
 // pages
 import Home from './components/pages/Home'
 import About from './components/pages/About'
@@ -12,8 +13,10 @@ import Engineering from './components/pages/Engineering'
 import NavBar from './components/partials/NavBar'
 
 function App() {
+
+
   return (
-    <div className="App">
+    <div className='App'>
       <Router>
         <header>
           <NavBar />
