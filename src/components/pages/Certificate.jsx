@@ -2,10 +2,10 @@ export default function Certificate() {
     return (
         <div>
             <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
-                <div>
+
 
                     <img className="rounded-t-lg justify-center align-center" src="https://i.imgur.com/JFSu1lJ.png" alt="" />
-                </div>
+
                 
                 <div className="p-5">
                     <a href="#">
