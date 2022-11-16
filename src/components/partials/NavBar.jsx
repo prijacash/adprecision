@@ -17,9 +17,9 @@ export default function NavBar() {
     }, [theme]);
 
     return (
-        <div className={`App ${theme}`}>
+        <div className={`App ${theme}` }>
             <nav>
-                <div className='flex justify-end'>
+                <div className="fixed-top flex justify-between items-end w-screen h-15 max-w-100 bg-slate-500 text-xl font-light text-stone-50 px-5 py-2">
                     <div>
                         <ul className='flex items-center gap-2'>
                             <li className='my-1'><Link to='/'>Home</Link></li>{' | '}
@@ -34,5 +34,5 @@ export default function NavBar() {
                 </div>
             </nav>
         </div>
-    )
+    ) 
 }
