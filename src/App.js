@@ -11,6 +11,7 @@ import Engineering from './components/pages/Engineering'
 
 // partials
 import NavBar from './components/partials/NavBar'
+import Footer from './components/partials/Footer'
 
 
 function App() {
@@ -52,14 +53,8 @@ function App() {
         </div>
       </Router>
 
-      <footer className='fixed bottom-0'>
-        <p className='text-xl italic mb-2'>Sales Contact</p>
-
-        <ul>
-          <li>Phone: 714-779-2714</li>
-          <li>Email: pvo@adprecisionmfg.com</li>
-          <li>Location: 4715 E. Hunter, Anaheim, CA</li>
-        </ul>
+      <footer>
+        <Footer />
       </footer>
     </div>
   );
