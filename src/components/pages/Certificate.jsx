@@ -1,21 +1,26 @@
 export default function Certificate() {
     return (
         <div>
-            
-            <div class="flex justify-center">
-                <div class="flex flex-col md:flex-row md:max-w-xl rounded-lg bg-white shadow-lg">
-                    <img class=" w-full h-auto md:h-auto object-cover md:w-48 rounded-t-lg md:rounded-none md:rounded-l-lg" src="https://i.imgur.com/JFSu1lJ.png" alt="" />
-                    <div class="p-6 flex flex-col justify-start">
-                    <h5 class="text-gray-900 text-xl font-medium mb-2">Registration and Certification</h5>
-                    <p class="text-gray-700 text-base mb-4">
-                        ISO 9001:2015 and AS9100D
-                        ITAR Registration Code: M28003
+            <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
+                <div>
+
+                    <img className="rounded-t-lg justify-center align-center" src="https://i.imgur.com/JFSu1lJ.png" alt="" />
+                </div>
+                
+                <div className="p-5">
+                    <a href="#">
+                        <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                            Registration and Certification</h5>
+                    </a>
+                    <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                            ISO 9001:2015 and AS9100D <br></br>
+                            ITAR Registration Code: M28003
                     </p>
-                    <img class="rounded-t-lg " src="https://i.imgur.com/3HXLGth.png" alt=""/>
-                    </div>
+
+                    <img className="rounded-t-lg " src="https://i.imgur.com/3HXLGth.png" alt=""/>
+                    
                 </div>
             </div>
-
         </div>
     )
 }
