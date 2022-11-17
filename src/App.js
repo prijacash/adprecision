@@ -18,7 +18,7 @@ import Footer from './components/partials/Footer'
 function App() {
 
   const [theme, setTheme] = useState('light');
-  const [logo, setLogo] = useState('');
+  const [logo, setLogo] = useState('https://media.discordapp.net/attachments/1039613871217983488/1042925913874120774/telegram-cloud-photo-size-1-5145468334001728232-x.jpg');
   const toggleTheme = () => {
     if (theme === 'light') {
       setTheme('dark');
