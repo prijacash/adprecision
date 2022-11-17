@@ -18,13 +18,19 @@ import Footer from './components/partials/Footer'
 function App() {
 
   const [theme, setTheme] = useState('light');
+  const [logo, setLogo] = useState('');
   const toggleTheme = () => {
     if (theme === 'light') {
       setTheme('dark');
+      setLogo('https://media.discordapp.net/attachments/1039613871217983488/1042925887747797064/telegram-cloud-photo-size-1-5145468334001728231-x.jpg')
     } else {
       setTheme('light');
+      setLogo('https://media.discordapp.net/attachments/1039613871217983488/1042925913874120774/telegram-cloud-photo-size-1-5145468334001728232-x.jpg')
     }
   };
+
+
+
 
   useEffect(() => {
     document.body.className = theme;
@@ -39,6 +45,10 @@ function App() {
         </header>
         <div>
           <p>A & D PRECISION MFG. INC.</p>
+        </div>
+
+        <div className='flex justify-center'>
+          <img src={logo} />
         </div>
 
         <div className='mt-4'>
