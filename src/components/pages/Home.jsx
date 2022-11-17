@@ -2,6 +2,7 @@ import GenOverview from '../partials/GenOverview'
 import Services from '../partials/Services'
 import Facility from '../partials/Facility'
 import SalesCustProfile from '../partials/SalesCustProfile'
+import CustomerApprovals from '../partials/CustomerApprovals'
 
 export default function Home() {
     return (
@@ -22,6 +23,10 @@ export default function Home() {
 
             <div className='mt-6'>
                 <Facility />
+            </div>
+
+            <div>
+                <CustomerApprovals />
             </div>
         </div>
     )

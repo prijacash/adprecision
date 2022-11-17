@@ -49,3 +49,7 @@
     transform: rotate(360deg);
   }
 }
+
+.customerApprovals {
+  height: 200px;
+}
