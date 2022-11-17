@@ -1,3 +1,5 @@
+import Organization from '../partials/Organization'
+
 export default function About() {
     return (
         <div>
@@ -18,6 +20,10 @@ export default function About() {
                     Minority Owned, Small Disadvantage Business
                 </li>
             </ul>
+
+            <div className='flex justify-center mb-4'>
+                <Organization />
+            </div>
         </div>
     )
 }
