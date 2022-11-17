@@ -18,7 +18,7 @@ function App() {
 
 
   return (
-    <div className='App'>
+    <div className='App flex flex-col min-h-screen'>
       <Router>
         <header>
           <NavBar />
@@ -53,7 +53,7 @@ function App() {
         </div>
       </Router>
 
-      <footer>
+      <footer className="mt-auto">
         <Footer />
       </footer>
     </div>
