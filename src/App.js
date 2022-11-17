@@ -16,7 +16,6 @@ import Footer from './components/partials/Footer'
 
 function App() {
 
-
   return (
     <div className='App'>
       <Router>
@@ -26,7 +25,6 @@ function App() {
         <div>
           <p>A & D PRECISION MFG. INC.</p>
         </div>
-
 
         <div className='mt-4'>
           <Routes >
