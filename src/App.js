@@ -1,5 +1,6 @@
 import './App.css';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom'
+import React, { useState, useEffect } from 'react'
 
 
 // pages
@@ -16,11 +17,25 @@ import Footer from './components/partials/Footer'
 
 function App() {
 
+  const [theme, setTheme] = useState('light');
+  const toggleTheme = () => {
+    if (theme === 'light') {
+      setTheme('dark');
+    } else {
+      setTheme('light');
+    }
+  };
+
+  useEffect(() => {
+    document.body.className = theme;
+  }, [theme]);
+
+
   return (
-    <div className='App flex flex-col min-h-screen'>
+    <div className={`${theme} App flex flex-col min-h-screen`}>
       <Router>
         <header>
-          <NavBar />
+          <NavBar theme={theme} toggleTheme={toggleTheme}/>
         </header>
         <div>
           <p>A & D PRECISION MFG. INC.</p>

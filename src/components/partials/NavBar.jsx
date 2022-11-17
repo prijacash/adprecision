@@ -1,23 +1,23 @@
 import { Link } from 'react-router-dom'
 import React, { useState, useEffect } from 'react'
 
-export default function NavBar() {
+export default function NavBar({ toggleTheme }) {
 
-    const [theme, setTheme] = useState('light');
-    const toggleTheme = () => {
-      if (theme === 'light') {
-        setTheme('dark');
-      } else {
-        setTheme('light');
-      }
-    };
+    // const [theme, setTheme] = useState('light');
+    // const toggleTheme = () => {
+    //   if (theme === 'light') {
+    //     setTheme('dark');
+    //   } else {
+    //     setTheme('light');
+    //   }
+    // };
   
-    useEffect(() => {
-      document.body.className = theme;
-    }, [theme]);
+    // useEffect(() => {
+    //   document.body.className = theme;
+    // }, [theme]);
 
     return (
-        <div className={`App ${theme}` }>
+        <div className={`App ` }>
             <nav>
                 <div className="fixed-top flex justify-between items-end w-screen h-15 max-w-100 bg-slate-600 text-xl font-light text-stone-50 px-5 py-2">
                     <div>
