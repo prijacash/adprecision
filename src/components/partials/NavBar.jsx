@@ -22,7 +22,7 @@ export default function NavBar({ toggleTheme }) {
                 <div className="fixed-top flex justify-between items-end w-screen h-15 max-w-100 bg-slate-600 text-xl font-light text-stone-50 px-5 py-2">
                     <div>
                         <ul className='flex items-center gap-2'>
-                            <li className='my-1'><Link to='/'>Home</Link></li>{' | '}
+                            <li className='my-1 italic font-bold'><Link to='/'>A&D PRECISION</Link></li>{' | '}
                             <li className='my-1'><Link to='/about'>About</Link></li>{' | '}
                             <li className='my-1'><Link to='/engineering'>Engineering</Link></li>{' | '}
                             <li className='my-1'><Link to='/certificate'>Certificates</Link></li>{' | '}
