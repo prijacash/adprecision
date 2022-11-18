@@ -8,10 +8,10 @@ body {
 
 .dark {
   background-color: rgb(47, 61, 76);
-  color: #fff;
+  color: #FBFCFA;
 }
 .light {
-  background-color: #fff;
+  background-color: #FBFCFA;
   color: #333;
 }
 
