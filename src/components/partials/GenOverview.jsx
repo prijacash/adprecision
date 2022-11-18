@@ -1,7 +1,7 @@
 export default function GenOverview() {
     return (
         <div>
-            <p className='text-xl italic font-semibold'>General Overview</p>
+            <p className='text-xl italic font-semibold underline'>General Overview</p>
 
             <div className="mt-2 text-center">
                 <div className="text-left inline-block">

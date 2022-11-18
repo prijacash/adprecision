@@ -1,7 +1,7 @@
 export default function SalesCustProfile() {
     return (
         <div>
-            <p className='text-xl italic font-semibold'>Sales and Customer Profile</p>
+            <p className='text-xl italic font-semibold underline'>Sales and Customer Profile</p>
 
 
             <div className="mt-2 text-center">
