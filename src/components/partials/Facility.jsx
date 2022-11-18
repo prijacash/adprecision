@@ -16,7 +16,7 @@ export default function Facility() {
                 </div>
             </div>
 
-            <div className='flex justify-center'>
+            <div className='flex justify-center mt-8'>
                 <img src='https://i.imgur.com/tL8jAam.png' className='facility' />
             </div>
 

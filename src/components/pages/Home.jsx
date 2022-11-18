@@ -13,19 +13,20 @@ export default function Home() {
                 <GenOverview />
             </div>
 
-            <div className='mt-6'>
+            <div className='mt-24 flex justify-center gap-36 items-center'>
                 <Services />
-            </div>
-
-            <div className='mt-6'>
                 <SalesCustProfile />
             </div>
 
-            <div className='mt-6'>
+            {/* <div className='mt-6'>
+                <SalesCustProfile />
+            </div> */}
+
+            <div className='mt-24'>
                 <Facility />
             </div>
 
-            <div>
+            <div className='mt-24'>
                 <CustomerApprovals />
             </div>
         </div>
