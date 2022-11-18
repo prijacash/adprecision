@@ -1,6 +1,6 @@
 export default function CustomerApprovals() {
     return (
-        <div className="mt-6 justify-center">
+        <div className="mt-6 mb-8 justify-center">
             <p>CustomerApprovals</p>
 
             <div className='flex justify-center'>
