@@ -1,9 +1,9 @@
 export default function GenOverview() {
     return (
         <div>
-            <p>General Overview</p>
+            <p className='text-xl italic font-semibold'>General Overview</p>
 
-            <div className="text-center">
+            <div className="mt-2 text-center">
                 <div className="text-left inline-block">
                     <p>Multi-axis Machining</p>
                     <p>High Speed Machining up to 12,000 RPM</p>

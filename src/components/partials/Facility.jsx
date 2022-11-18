@@ -1,9 +1,9 @@
 export default function Facility() {
     return (
         <div>
-            <p>Manufacturing Facility</p>
+            <p className='text-xl italic font-semibold'>Manufacturing Facility</p>
 
-            <div className="text-center">
+            <div className="mt-2 text-center">
                 <div className="text-left inline-block">
                     <p>Address:</p>
                     <p>- 4751 East Hunter, Anaheim, California 92807</p>
