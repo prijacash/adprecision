@@ -48,7 +48,7 @@ function App() {
         </div>
 
         <div className='flex justify-center'>
-          <img src={logo} />
+          <img src={logo} className='logo'/>
         </div>
 
         <div className='mt-4'>
