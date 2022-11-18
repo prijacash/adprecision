@@ -1,10 +1,10 @@
 export default function SalesCustProfile() {
     return (
         <div>
-            <p>Sales and Customer Profile</p>
+            <p className='text-xl italic font-semibold'>Sales and Customer Profile</p>
 
 
-            <div className="text-center">
+            <div className="mt-2 text-center">
                 <div className="">
                     <p>Aerospace & Defense Primes</p>
                     <p>1st and 2nd Tier Aerospace</p>

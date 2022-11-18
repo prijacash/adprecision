@@ -1,9 +1,9 @@
 export default function Services() {
     return (
         <div>
-            <p>Services</p>
+            <p className='text-xl italic font-semibold'>Services</p>
 
-            <div className="text-center">
+            <div className="mt-2 text-center">
                 <div className="text-left inline-block">
                     <p>- Catia V5 - CAD / CAM</p>
                     <p>- In-house Tool Design and Fabrication</p>

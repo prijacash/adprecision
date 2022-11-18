@@ -44,7 +44,7 @@ function App() {
           <NavBar theme={theme} toggleTheme={toggleTheme}/>
         </header>
         <div>
-          <p>A & D PRECISION MFG. INC.</p>
+          <p className='text-3xl italic font-semibold mt-4 mb-4'>A & D PRECISION MFG. INC.</p>
         </div>
 
         <div className='flex justify-center'>
