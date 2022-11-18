@@ -1,7 +1,7 @@
 export default function Facility() {
     return (
         <div>
-            <p className='text-xl italic font-semibold'>Manufacturing Facility</p>
+            <p className='text-xl italic font-semibold underline'>Manufacturing Facility</p>
 
             <div className="mt-2 text-center">
                 <div className="text-left inline-block">
