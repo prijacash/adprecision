@@ -6,8 +6,8 @@ import React, { useState, useEffect } from 'react'
 // pages
 import Home from './components/pages/Home'
 import About from './components/pages/About'
-import Certificate from './components/pages/Certificate'
-import Engineering from './components/pages/Engineering'
+import Quality from './components/pages/Quality'
+import Capabilities from './components/pages/Capabilities'
 
 
 // partials
@@ -64,13 +64,13 @@ function App() {
             />
 
             <Route 
-              path='/engineering'
-              element={<Engineering />}          
+              path='/capabilities'
+              element={<Capabilities />}          
             />
 
             <Route 
-              path='/certificate'
-              element={<Certificate />}          
+              path='/quality'
+              element={<Quality />}          
             />
           </Routes>
         </div>

@@ -23,9 +23,9 @@ export default function NavBar({ toggleTheme }) {
                     <div>
                         <ul className='flex items-center gap-2'>
                             <li className='my-1 italic font-bold'><Link to='/'>A&D PRECISION</Link></li>{' | '}
-                            <li className='my-1'><Link to='/about'>About</Link></li>{' | '}
-                            <li className='my-1'><Link to='/engineering'>Engineering</Link></li>{' | '}
-                            <li className='my-1'><Link to='/certificate'>Certificates</Link></li>{' | '}
+                            <li className='my-1'><Link to='/about'>Company / About Us</Link></li>{' | '}
+                            <li className='my-1'><Link to='/capabilities'>Capabilities</Link></li>{' | '}
+                            <li className='my-1'><Link to='/quality'>Quality</Link></li>{' | '}
                         </ul>
                     </div>
                     <div className='my-1 mx-2 justify-end'>
