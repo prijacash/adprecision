@@ -1,7 +1,7 @@
 export default function AdvanceMachining() {
     return (
         <div>
-            <p>Advance Machining</p>
+            <p className='text-l italic font-semibold underline'>Advance Machining</p>
 
             <div className="text-center">
                 <div className="text-left inline-block">
