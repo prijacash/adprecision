@@ -3,7 +3,7 @@ import Organization from '../partials/Organization'
 export default function About() {
     return (
         <div>
-            <p className='text-2xl italic mb-5'>About A&D Precision </p>
+            <p className='text-xl italic font-semibold underline mb-4'>About A&D Precision </p>
 
             <p className='mb-4'>A&D Precision Manufacturing, Inc was founded in 1976 and headquartered in Anaheim, California, is a<br></br> leading manufacturer of small and medium, complex structural components and sub-assemblies for<br></br> the commercial and military aircraft markets.</p>
 
