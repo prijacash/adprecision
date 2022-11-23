@@ -8,6 +8,7 @@ import Home from './components/pages/Home'
 import About from './components/pages/About'
 import Quality from './components/pages/Quality'
 import Capabilities from './components/pages/Capabilities'
+import Contact from './components/pages/Contact';
 
 
 // partials
@@ -71,6 +72,11 @@ function App() {
             <Route 
               path='/quality'
               element={<Quality />}          
+            />
+
+            <Route
+              path='/contact'
+              element={<Contact />}
             />
           </Routes>
         </div>

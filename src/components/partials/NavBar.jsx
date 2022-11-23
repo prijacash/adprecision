@@ -26,7 +26,7 @@ export default function NavBar({ toggleTheme }) {
                             <li className='my-1'><Link to='/about'>About Us</Link></li>{' | '}
                             <li className='my-1'><Link to='/capabilities'>Capabilities</Link></li>{' | '}
                             <li className='my-1'><Link to='/quality'>Quality</Link></li>{' | '}
-                            <li className='my-1'><a id='#bottom' href='#bottom'>Contact</a></li>
+                            <li className='my-1'><Link to='/contact'>Contact</Link></li>
                         </ul>
                     </div>
                     <div className='my-1 mx-2 justify-end'>
