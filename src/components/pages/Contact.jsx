@@ -1,3 +1,4 @@
+import ContactForm from '../partials/ContactForm'
 import ContactPartial from '../partials/ContactPartial'
 
 export default function Contact() {
@@ -6,6 +7,8 @@ export default function Contact() {
             {/* <p>Contact</p> */}
 
             <ContactPartial />
+
+            <ContactForm />
         </div>
     )
 }
