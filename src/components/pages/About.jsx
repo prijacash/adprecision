@@ -1,4 +1,3 @@
-import Organization from '../partials/Organization'
 import Facility from '../partials/Facility'
 import CustomerApprovals from '../partials/CustomerApprovals'
 import CustomerRecognition from '../partials/EquipmentOverview'
@@ -23,10 +22,6 @@ export default function About() {
                     Minority Owned, Small Disadvantage Business
                 </li>
             </ul>
-
-            <div className='flex justify-center mb-4'>
-                <Organization />
-            </div>
 
             <div className='mt-24'>
                 <Facility />
