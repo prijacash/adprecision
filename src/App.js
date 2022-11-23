@@ -48,9 +48,9 @@ function App() {
           <p className='text-3xl italic font-semibold mt-4 mb-4'>A & D PRECISION MFG. INC.</p>
         </div>
 
-        <div className='flex justify-center'>
+        {/* <div className='flex justify-center'>
           <img src={logo} className='logo'/>
-        </div>
+        </div> */}
 
         <div className='mt-4'>
           <Routes >
