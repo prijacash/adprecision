@@ -1,4 +1,4 @@
-export default function CustomerRecognition() {
+export default function EquipmentOverview() {
     return (
         <div className="mt-6 justify-center">
             <p className='text-l italic font-semibold underline mb-2'>A&D Precision Manufacturing, Inc. - Equipment Capabilities Quick Overview</p>
