@@ -1,5 +1,5 @@
 import Facility from '../partials/Facility'
-import CustomerApprovals from '../partials/CustomerApprovals'
+import Customers from '../partials/Customers'
 import CustomerRecognition from '../partials/EquipmentOverview'
 
 export default function About() {
@@ -28,7 +28,7 @@ export default function About() {
             </div>
 
             <div className='mt-24'>
-                <CustomerApprovals />
+                <Customers />
             </div>
 
         </div>
