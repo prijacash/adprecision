@@ -132,6 +132,67 @@ export default function EquipmentOverview() {
                 </tbody>
                 </table>
             </div>
+
+
+            <p className='text-l italic font-semibold underline'>Equipment</p>
+
+                <section className="overflow-hidden text-gray-700 ">
+                    <div className="container px-5 py-2 mx-auto lg:pt-12 lg:px-32">
+                        <div className="flex flex-wrap -m-1 md:-m-2">
+                            <div className="flex flex-wrap w-1/3">
+                                <div className="w-full p-1 md:p-2">
+                                    <img 
+                                        alt="gallery" 
+                                        className="block object-cover object-center w-full h-full rounded-lg"
+                                        src="https://i.imgur.com/gAIjb5U.png"
+                                    />
+                                </div>
+                            </div>
+                            <div className="flex flex-wrap w-1/3">
+                                <div className="w-full p-1 md:p-2">
+                                    <img alt="gallery" 
+                                        className="block object-cover object-center w-full h-full rounded-lg"
+                                        src="https://i.imgur.com/1zptjSm.png"
+                                    />
+                                </div>
+                            </div>
+                            <div className="flex flex-wrap w-1/3">
+                                <div className="w-full p-1 md:p-2">
+                                    <img 
+                                        alt="gallery" 
+                                        className="block object-cover object-center w-full h-full rounded-lg"
+                                        src="https://i.imgur.com/N19KAoC.jpg"
+                                    />
+                                </div>
+                            </div>
+                            <div className="flex flex-wrap w-1/3">
+                                <div className="w-full p-1 md:p-2">
+                                    <img 
+                                        alt="gallery" 
+                                        className="block object-cover object-center w-full h-full rounded-lg"
+                                        src="https://i.imgur.com/9xgY6lT.png"
+                                    />
+                                </div>
+                            </div>
+                            <div className="flex flex-wrap w-1/3">
+                                <div className="w-full p-1 md:p-2">
+                                    <img alt="gallery" 
+                                    className="block object-cover object-center w-full h-full rounded-lg"
+                                    src="https://i.imgur.com/kDBda20.png"/>
+                                </div>
+                            </div>
+                            <div className="flex flex-wrap w-1/3">
+                                <div className="w-full p-1 md:p-2">
+                                    <img 
+                                        alt="gallery" 
+                                        className="block object-cover object-center w-full h-full rounded-lg"
+                                        src="https://i.imgur.com/1ovcZs7.png"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
         </div>
     )
 }
