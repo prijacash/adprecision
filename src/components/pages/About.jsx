@@ -4,7 +4,7 @@ import CustomerRecognition from '../partials/EquipmentOverview'
 
 export default function About() {
     return (
-        <div className='mb-12'>
+        <div className='mb-12 bg-about'>
             <p className='text-xl italic font-semibold underline mb-4'>About A&D Precision </p>
 
             <p className='mb-4'>A&D Precision Manufacturing, Inc was founded in 1976 and headquartered in Anaheim, California, is a<br></br> leading manufacturer of small and medium, complex structural components and sub-assemblies for<br></br> the commercial and military aircraft markets.</p>
