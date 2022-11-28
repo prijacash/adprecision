@@ -6,7 +6,7 @@ import SampleParts from "../partials/SampleParts"
 
 export default function Capabilities() {
     return (
-        <div>
+        <div className='mb-12'>
             <p className='text-2xl italic font-semibold underline mb-4'>Capabilities</p>
 
             <p>A&D Precision Manufacturing utilizes the most to date CAT/CAM software<br></br> to support tool design, engineering change activity, process planning,<br></br> and programming for CNC Machines</p>
