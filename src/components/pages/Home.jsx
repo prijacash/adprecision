@@ -1,11 +1,16 @@
 import GenOverview from '../partials/GenOverview'
 import Services from '../partials/Services'
 import SalesCustProfile from '../partials/SalesCustProfile'
+import Hero from '../partials/Hero'
 
 
 export default function Home() {
     return (
         <div>
+            <div className='mt-6'>
+                <Hero />
+            </div>
+
             <div className='mt-6'>
                 <GenOverview />
             </div>
