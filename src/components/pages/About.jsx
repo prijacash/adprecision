@@ -7,15 +7,15 @@ export default function About() {
     return (
         <div className='mb-12'>
 
-            <div className='mt-2'>
+            <div className='mt-6'>
                 <Overview />
             </div>
 
-            <div className='mt-24'>
+            <div className='mt-6'>
                 <Facility />
             </div>
 
-            <div className='mt-24'>
+            <div className='mt-6'>
                 <Customers />
             </div>
 
