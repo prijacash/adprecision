@@ -267,8 +267,129 @@ export default function Equipment() {
                 </table>
             </div> */}
 
+            <div className="mt-2 flex justify-center text-center">
+                <a href="#" className="block max-w-l p-6 bg-white border border-gray-200 rounded-lg shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                    <div className="w-full p-1 md:p-2">
+                        <img 
+                            alt="gallery" 
+                            className="block object-cover object-center w-full h-full rounded-lg"
+                            src="https://i.imgur.com/gAIjb5U.png"
+                        />
+                    </div>
+                    <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">FADA VMC</h5>
+                    <p className="font-normal text-gray-700 dark:text-gray-400"></p>
+                </a>
+            </div>
+
 
             <p className='text-l italic font-semibold underline'>Equipment</p>
+
+                <section className="overflow-hidden text-gray-700 ">
+                    <div className="container px-5 py-2 mx-auto lg:pt-12 lg:px-32">
+                        <div className="flex flex-wrap -m-1 md:-m-2">
+                            <div className="flex flex-wrap w-1/3">
+                                <div className="mt-2 flex justify-center text-center">
+                                    <a href="#" className="block max-w-l p-6 bg-white border border-gray-200 rounded-lg shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                                        <div className="w-full p-1 md:p-2">
+                                            <img 
+                                                alt="gallery" 
+                                                className="block object-cover object-center w-full h-full rounded-lg"
+                                                src="https://i.imgur.com/gAIjb5U.png"
+                                            />
+                                        </div>
+                                        <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">FADA VMC</h5>
+                                        <p className="font-normal text-gray-700 dark:text-gray-400"></p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div className="flex flex-wrap w-1/3">
+                                <div className="mt-2 flex justify-center text-center">
+                                        <a href="#" className="block max-w-l p-6 bg-white border border-gray-200 rounded-lg shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                                            <div className="w-full p-1 md:p-2">
+                                                <img 
+                                                    alt="gallery" 
+                                                    className="block object-cover object-center w-full h-full rounded-lg"
+                                                    src="https://i.imgur.com/1zptjSm.png"
+                                                />
+                                            </div>
+                                            <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">HAAS VF5</h5>
+                                            <p className="font-normal text-gray-700 dark:text-gray-400"></p>
+                                        </a>
+                                    </div>
+                            </div>
+
+
+                            <div className="flex flex-wrap w-1/3">
+                                <div className="mt-2 flex justify-center text-center">
+                                    <a href="#" className="block max-w-l p-6 bg-white border border-gray-200 rounded-lg shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                                        <div className="w-full p-1 md:p-2">
+                                            <img 
+                                                alt="gallery" 
+                                                className="block object-cover object-center w-full h-full rounded-lg"
+                                                src="https://i.imgur.com/N19KAoC.jpg"
+                                            />
+                                        </div>
+                                        <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">KIWA KH 45g</h5>
+                                        <p className="font-normal text-gray-700 dark:text-gray-400"></p>
+                                    </a>
+                                </div>
+                            </div>
+
+
+                            <div className="flex flex-wrap w-1/3">
+                                <div className="mt-2 flex justify-center text-center">
+                                    <a href="#" className="block max-w-l p-6 bg-white border border-gray-200 rounded-lg shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                                        <div className="w-full p-1 md:p-2">
+                                            <img 
+                                                alt="gallery" 
+                                                className="block object-cover object-center w-full h-full rounded-lg"
+                                                src="https://i.imgur.com/9xgY6lT.png"
+                                            />
+                                        </div>
+                                        <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">MORI CL</h5>
+                                        <p className="font-normal text-gray-700 dark:text-gray-400"></p>
+                                    </a>
+                                </div>
+                            </div>
+
+
+                            <div className="flex flex-wrap w-1/3">
+                                <div className="mt-2 flex justify-center text-center">
+                                    <a href="#" className="block max-w-l p-6 bg-white border border-gray-200 rounded-lg shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                                        <div className="w-full p-1 md:p-2">
+                                            <img 
+                                                alt="gallery" 
+                                                className="block object-cover object-center w-full h-full rounded-lg"
+                                                src="https://i.imgur.com/kDBda20.png"
+                                            />
+                                        </div>
+                                        <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">MORI SL</h5>
+                                        <p className="font-normal text-gray-700 dark:text-gray-400"></p>
+                                    </a>
+                                </div>
+                            </div>
+
+
+                            <div className="flex flex-wrap w-1/3">
+                                <div className="mt-2 flex justify-center text-center">
+                                    <a href="#" className="block max-w-l p-6 bg-white border border-gray-200 rounded-lg shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                                        <div className="w-full p-1 md:p-2">
+                                            <img 
+                                                alt="gallery" 
+                                                className="block object-cover object-center w-full h-full rounded-lg"
+                                                src="https://i.imgur.com/1ovcZs7.png"
+                                            />
+                                        </div>
+                                        <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Okuma 5 Axis</h5>
+                                        <p className="font-normal text-gray-700 dark:text-gray-400"></p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
 
                 <section className="overflow-hidden text-gray-700 ">
                     <div className="container px-5 py-2 mx-auto lg:pt-12 lg:px-32">
