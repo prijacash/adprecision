@@ -1,6 +1,6 @@
-import GenOverview from '../partials/GenOverview'
-import Services from '../partials/Services'
-import SalesCustProfile from '../partials/SalesCustProfile'
+// import GenOverview from '../partials/GenOverview'
+// import Services from '../partials/Services'
+// import SalesCustProfile from '../partials/SalesCustProfile'
 import Hero from '../partials/Hero'
 
 
@@ -12,12 +12,12 @@ export default function Home() {
             </div>
 
             <div className='mt-6'>
-                <GenOverview />
+                {/* <GenOverview /> */}
             </div>
 
             <div className='mt-24 flex justify-center gap-36 items-center'>
-                <Services />
-                <SalesCustProfile />
+                {/* <Services /> */}
+                {/* <SalesCustProfile /> */}
             </div>
 
             {/* <div className='mt-6'>

@@ -1,6 +1,6 @@
 import Facility from '../partials/Facility'
 import Customers from '../partials/Customers'
-import CustomerRecognition from '../partials/EquipmentOverview'
+// import CustomerRecognition from '../partials/EquipmentOverview'
 
 export default function About() {
     return (
