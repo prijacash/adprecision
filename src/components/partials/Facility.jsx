@@ -11,6 +11,9 @@ export default function Facility() {
                             <p className='text-xl mt-1'>Facility Size: 10,000 Sq. Feet</p>
                             <p className='text-xl mt-1'>Capacity / Sales: 5 Days per Week (Capacity for 2 Shifts)</p> 
                         </div>
+                        <div className='flex justify-center mt-6'>
+                            <img src='https://i.imgur.com/tL8jAam.png' className='facility' />
+                        </div>
                     </div>
                 </a>
             </div>
@@ -34,13 +37,6 @@ export default function Facility() {
                     </div>
                 </a>
             </div>
-           
-            <div className='flex justify-center mt-6'>
-                <img src='https://i.imgur.com/tL8jAam.png' className='facility' />
-            </div>
-
-
-
         </div>
     )
 }
