@@ -1,30 +1,27 @@
-import AdvanceMachining from "../partials/AdvancedMachining"
-import EngineeringInfo from "../partials/EngineeringInfo" 
-import EquipmentOverview from "../partials/EquipmentOverview"
-import SampleParts from "../partials/SampleParts"
-
+import GeneralServices from '../partials/GeneralServices'
+import Equipment from '../partials/Equipment'
+import Materials from '../partials/Materials'
+import SampleProducts from '../partials/SampleProducts'
 
 export default function Capabilities() {
     return (
         <div className='mb-12'>
             <p className='text-2xl italic font-semibold underline mb-4'>Capabilities</p>
 
-            <p>A&D Precision Manufacturing utilizes the most to date CAT/CAM software<br></br> to support tool design, engineering change activity, process planning,<br></br> and programming for CNC Machines</p>
-
             <div className='mt-6'>
-                <EngineeringInfo />
+                <GeneralServices />
             </div>
 
             <div className='mt-6'>
-                <AdvanceMachining />
+                <Equipment />
             </div>
 
             <div className='mt-6'>
-                <EquipmentOverview />
+                <Materials />
             </div>
 
             <div className='mt-6'>
-                <SampleParts />
+                <SampleProducts />
             </div>
         </div>
     )
