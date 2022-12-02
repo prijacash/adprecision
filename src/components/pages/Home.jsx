@@ -23,7 +23,7 @@ export default function Home() {
             {/* <div className='mt-6'>
                 <SalesCustProfile />
             </div> */}
-            <img src='public/images/boeing737.jpeg' alt='737'/>
+
 
         </div>
     )
