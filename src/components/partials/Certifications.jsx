@@ -18,7 +18,8 @@ export default function Certifications() {
                             ITAR Registration Code: M28003
                     </p>
 
-                    <img className="rounded-t-lg " src="https://i.imgur.com/3HXLGth.png" alt=""/>
+                    <img className="rounded-t-lg " src="https://i.imgur.com/xcBFPaM.jpg" alt=""/>
+                    <img className="rounded-t-lg " src="https://i.imgur.com/AR3W6I4.jpg" alt=""/>
                     
                 </div>
             </div>
