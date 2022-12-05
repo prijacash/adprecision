@@ -6,8 +6,6 @@ import SampleProducts from '../partials/SampleProducts'
 export default function Capabilities() {
     return (
         <div className='mb-12'>
-            <p className='text-2xl italic font-semibold underline mb-4'>Capabilities</p>
-
             <div className='mt-6'>
                 <GeneralServices />
             </div>
