@@ -16,6 +16,8 @@ export default function Contact() {
                 <ContactForm />
             </div>
 
+            <div className='mt-40 pb-20'>
+            </div>
         </div>
     )
 }
