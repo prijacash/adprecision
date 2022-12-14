@@ -52,7 +52,7 @@ function App() {
           <img src={logo} className='logo'/>
         </div> */}
 
-        <div className='mt-4'>
+        <div className=''>
           <Routes >
             <Route 
               path='/'
