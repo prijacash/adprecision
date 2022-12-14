@@ -8,9 +8,14 @@ export default function Contact() {
 
             {/* <p>Contact</p> */}
 
-            <ContactPartial />
+            <div className='pt-6'>
+                <ContactPartial />
+            </div>
 
-            <ContactForm />
+            <div className='mt-6'>
+                <ContactForm />
+            </div>
+
         </div>
     )
 }

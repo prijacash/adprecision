@@ -6,7 +6,8 @@ export default function Quality() {
         <div className='mb-12' style={{backgroundImage: `url(https://i.imgur.com/EkL0WCQ.png)`, backgroundSize: 'cover', backgroundPosition: 'center center',
         backgroundRepeat: 'no-repeat'}}>
 
-            <div className=''>
+
+            <div className='pt-6'>
                 <QualityOverview />
             </div>
 
