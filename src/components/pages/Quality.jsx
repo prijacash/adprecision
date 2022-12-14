@@ -3,7 +3,7 @@ import QualityOverview from "../partials/QualityOverview";
 
 export default function Quality() {
     return (
-        <div className='mb-12' style={{backgroundImage: `url(https://i.imgur.com/EkL0WCQ.png)`, backgroundSize: 'cover', backgroundPosition: 'center center',
+        <div className='pb-12' style={{backgroundImage: `url(https://i.imgur.com/EkL0WCQ.png)`, backgroundSize: 'cover', backgroundPosition: 'center center',
         backgroundRepeat: 'no-repeat'}}>
 
 

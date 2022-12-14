@@ -6,7 +6,7 @@ import Hero from '../partials/Hero'
 
 export default function Home() {
     return (
-        <div className='mb-12'>
+        <div className='pb-12'>
             <div className=''>
                 <Hero />
             </div>
