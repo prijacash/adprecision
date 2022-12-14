@@ -20,9 +20,9 @@ export default function Capabilities() {
                 <Materials />
             </div>
 
-            <div className='mt-6'>
+            {/* <div className='mt-6'>
                 <SampleProducts />
-            </div>
+            </div> */}
         </div>
     )
 }
