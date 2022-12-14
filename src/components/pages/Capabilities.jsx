@@ -8,7 +8,7 @@ export default function Capabilities() {
         <div className='mb-12 bg-fixed' style={{backgroundImage: `url(https://i.imgur.com/emCowHN.png)`, backgroundPosition: 'center center',
         backgroundRepeat: 'no-repeat'}}>
 
-            <div className='mt-6'>
+            <div className=''>
                 <GeneralServices />
             </div>
 

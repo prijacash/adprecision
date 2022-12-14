@@ -8,7 +8,7 @@ export default function About() {
         <div className='mb-12' style={{backgroundImage: `url(https://i.imgur.com/FxUfmMy.png)`, backgroundSize: 'cover', backgroundPosition: 'center center',
         backgroundRepeat: 'no-repeat'}}>
 
-            <div className='mt-6'>
+            <div className=''>
                 <Overview />
             </div>
 
