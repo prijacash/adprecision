@@ -5,7 +5,7 @@ import Customers from '../partials/Customers'
 
 export default function About() {
     return (
-        <div className='mb-12' style={{backgroundImage: `url(https://i.imgur.com/FxUfmMy.png)`, backgroundSize: 'cover', backgroundPosition: 'center center',
+        <div className='pb-12' style={{backgroundImage: `url(https://i.imgur.com/FxUfmMy.png)`, backgroundSize: 'cover', backgroundPosition: 'center center',
         backgroundRepeat: 'no-repeat'}}>
 
             {/* <div className='py-4'>
