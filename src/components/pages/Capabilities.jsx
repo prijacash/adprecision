@@ -5,7 +5,9 @@ import SampleProducts from '../partials/SampleProducts'
 
 export default function Capabilities() {
     return (
-        <div className='mb-12'>
+        <div className='mb-12 bg-fixed' style={{backgroundImage: `url(https://i.imgur.com/emCowHN.png)`, backgroundPosition: 'center center',
+        backgroundRepeat: 'no-repeat'}}>
+
             <div className='mt-6'>
                 <GeneralServices />
             </div>
