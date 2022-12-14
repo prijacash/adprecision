@@ -3,7 +3,7 @@ export default function Equipment() {
         <div className="mt-6 justify-center">
 
             <div className="mt-2 flex justify-center text-center">
-                <a href="#" className="block w-3/5 p-6 bg-white border border-gray-200 rounded-lg shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                <a href="#" className="block w-3/5 p-6 bg-white border border-gray-200 rounded-lg shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700 opacity-70">
                     <p className='mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white'>Equipment Capabilities Quick Overview</p>
 
                     <hr class="mx-auto w-3/5 h-1 bg-gray-400 rounded border-0 md:my-5 dark:bg-gray-700"></hr>
@@ -23,7 +23,7 @@ export default function Equipment() {
                                 </tr>
                             </thead>
 
-                            <tbody className="font-normal text-gray-700 dark:text-gray-400">
+                            <tbody className="font-normal text-gray-900 dark:text-white">
                                 <tr>
                                     <td>OKK HM-500S</td>
                                     <td>5</td>

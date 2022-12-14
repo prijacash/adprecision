@@ -3,9 +3,9 @@ export default function Materials() {
         <div>
 
             <div className="mt-2 flex justify-center text-center">
-                <a href="#" className="block w-3/5 p-6 bg-white border border-gray-200 rounded-lg shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                <a href="#" className="block w-3/5 p-6 bg-white border border-gray-200 rounded-lg shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700 opacity-70">
                     <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Materials</h5>
-                    <p className="font-normal text-gray-700 dark:text-gray-400"> 
+                    <p className="font-normal text-gray-900 dark:text-white"> 
                         <ul>
                             <li className='mb-2'>
                                 A&D Precision Machining works with a wide range of materials to meet the continued advancements of product design, form, and function. Our depth of material knowledge and quality inspection provides our customers with assurance whether we source directly from their supplier or ours.
